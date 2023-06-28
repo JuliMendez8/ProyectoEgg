@@ -1,0 +1,52 @@
+.bloque-iguales{
+    border: 2px dashed darkkhaki;
+    width: 670px;
+    height: 670px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.bloque-iguales>div{
+    width: 130px;
+    height: 130px;
+}
+
+.cuadro1{
+    background-color: coral;
+}
+.cuadro2{
+    background-color: cornflowerblue;
+}
+.cuadro3{
+    background-color: darkseagreen;
+}
+
+#primero{
+    justify-content: space-between;
+}
+
+#primero>.cuadro1{
+    align-self: flex-start;
+}
+#primero>.cuadro2{
+    align-self: center;
+}
+#primero>.cuadro3{
+    align-self: flex-end;
+}
+
+#segundo{
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#segundo>.cuadro2{
+    width: 100%;
+}
+
+#tercero{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}

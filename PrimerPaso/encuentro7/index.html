@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-nav">
+        <nav class="navbar">
+            <a href="#" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </div>
+    <div class="container">
+        <h1 id="mainTit">Bienvenidos a mi primer Website!</h1>
+        <div class="row">
+            <div class="column">
+                <h2>Soy estudiante de ingeniería de software.</h2>
+                <p>Soy Juliana ¡y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente
+                atrapantes y funcionales. </p>
+            </div>
+            <div class="column">
+                <h2>Me gustaría empezar a llenar mi Github</h2>
+                <p>A lo largo de este curso estaré aprendiendo <strong>HTML, CSS y JavaScript.</strong> Estos lenguajes
+                me ayudarán a crear una base sólida en el desarrollo web front-end</p>
+                <img src="https://inversorlatam.com/wp-content/uploads/2022/05/Programacion.jpg" alt="Imagen de ejemplo" />
+        
+                <h3>Algunos datos sobre mi</h3>
+                <ul>
+                    <li>Tengo <strong>19</strong> años</li>
+                    <li>Soy de <strong>Colombia</strong></li>
+                    <li>Estoy en este curso para mejorar mis habilidades, quiero ser una profesional destacada.</li>
+                </ul>
+                <br>
+
+                <br>
+                <br>
+
+                <input type="text" placeholder ="Ingrese un número" name="a" id="numero1"><br>
+                <input type="text" placeholder ="Ingrese otro número" name="b" id="numero2"><br>
+                <input type="button" name="name", value="Sumar" onclick="suma();">
+            </div>
+        </div>
+        <button onclick="showAlert()">¡Haz click en mí!</button>
+    </div>
+
+    <form id="myForm">
+        <label for="email">Correo Eletrónico:</label>
+        <input type="email" name="email" id="email" required="required">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

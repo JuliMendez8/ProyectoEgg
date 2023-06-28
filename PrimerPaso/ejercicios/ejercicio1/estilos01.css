@@ -1,0 +1,21 @@
+#primero{
+    display: inline-block;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+}
+#segundo{
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    background-color: #7ffe00;
+    border: 2px solid black;
+}
+#tercero{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    background-color: #5f9ea0;
+    border: 2px solid black;
+}

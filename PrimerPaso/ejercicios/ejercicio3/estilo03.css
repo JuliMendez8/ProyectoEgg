@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+
+/*Media queries, muy utiles*/
+
+@media (max-width: 800px) {
+    body {
+      background-color: #87ceeb;
+    }
+  }
+
+@media (max-width: 600px) {
+    body {
+      background-color:red;
+    }
+  }
